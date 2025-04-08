@@ -11,12 +11,11 @@ int main() {
     int firstMult1, firstMult2, firstMult3, firstMult4, firstMult5, firstMult6, firstMult7, firstMult8, firstMult9;
     int secondMult1, secondMult2, secondMult3, secondMult4, secondMult5, secondMult6, secondMult7, secondMult8, secondMult9, secondMult10;
 
-    // Entrada de dados dos 9 dígitos
-    cout << "Digite um número de 9 dígitos: ";
+    // Entrada de dados dos 9 dígitos do CPF.
+    cout << "Digite os 9 primeiro dígitos do CPF: ";
     cin >> fullNumber;
 
     // Separação dos 9 dígitos do número digitado e cálculo das multiplicações do primeiro dígito verificador.
-
     // Pega o último número (9º) e multiplica por 2.
     num9 = fullNumber % 10;
     firstMult9 = num9 * 2;
